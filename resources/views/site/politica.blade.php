@@ -1,0 +1,2 @@
+<h1>Política de Privacidade</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta veniam blanditiis sequi tempore id? Laudantium consectetur animi atque, quo voluptatum rerum architecto veniam repellat! Doloribus inventore error sunt amet nobis.</p>

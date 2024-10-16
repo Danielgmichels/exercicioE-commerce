@@ -16,3 +16,34 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Rotas para o site
+
+Route::get('home', function(){
+    return view('site/home');
+})->name('home');
+
+Route::get('politica-de-privacidade', function(){
+    return view('site/politica');
+})->name('politica');
+
+Route::get('Contato', function(){
+    return view('site/Contato');
+})->name('Contato');
+
+
+//Rotas para o admin
+Route::group([
+    "prefix" => "admin",
+    "as" => "admin."
+], function(){
+
+    Route::get('dashboard', function(){
+        return view('admin/dashboard');
+    })->name('dashboard');
+
+    Route::get('produtos', function(){
+        return view('admin/produtos');
+    })->name('produtos');
+
+});
